@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:background="#0949A6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+
+            app:srcCompat="@drawable/menu" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textView"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="38sp"
+            android:text="Lịch Học" />
+
+        <ImageView
+            android:layout_marginLeft="83dp"
+            android:id="@+id/imageButton5"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/belll"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/imageButton6"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+
+            app:srcCompat="@android:drawable/ic_menu_search" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
